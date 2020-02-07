@@ -1,2 +1,10 @@
-**/.vscode
-*.sqlite3
+*.log
+*.pot
+*.pyc
+.vscode/settings.json
+__pycache__
+db.sqlite3
+media
+
+# Backup files # 
+*.bak 
