@@ -5,6 +5,9 @@ from django.utils import timezone
 
 from .models import Question
 
+# Run tests with the following command...
+# $ python manage.py test <app_name>
+
 class QuestionModelTest(TestCase):
     
     def test_was_published_recently_with_future_question(self):
